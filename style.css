@@ -8,21 +8,24 @@ h1 {
     padding: 20px;
 }
 
-a {
-    text-decoration: none;
-}
-
 li {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 a.link,
-a.visited {
+a:visited {
     color: white;
 }
-a.hover {
+a:hover {
     color: red;
 } 
+a:active {
+    color: black;
+}
 
 .gomain {
     background-color: orange;
