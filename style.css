@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-color: orange;
+    color: white;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+a.link,
+a.visited {
+    color: white;
+}
+a.hover {
+    color: red;
+} 
+
+.gomain {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+}
